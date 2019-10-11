@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-deployment
+
+spec:
+  containers:
+  - name: jenkins
+    image: jenkins
+    ports:
+    - containerPort: 8080
