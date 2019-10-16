@@ -1,0 +1,42 @@
+
+$ history
+    1  start.sh
+    2  clear
+    3  kubectl get nodes
+    4  kubectl get namespace
+    5  clerar
+    6  clear
+    7  kubectl create ns my-project -o yaml
+    9  clear
+   10  kubectl get ns
+   11  kubectl get ns -o wide
+   12  clear
+   13  kubectl delete ns my-project
+   14  kubectl get ns
+   18  kubectl create -f https://raw.githubusercontent.com/itrainpadman/k8s_resouces/master/my-project-ns.yaml
+   19  kubectl get ns
+   20  clear			
+   21  kubectl config view
+   22  clear
+   23  kubectl config set-context --cluster=minikube --namespace=my-project  ===> on a predefined cluster
+   24  kubectl config set-context --current --namespace=my-project
+   25  kubectl config view
+   26  kubectl config set-context my-project --cluster=minikube --user=minikube --namespace=my-project
+   27  kubectl config view
+   28  kubectl config use-context my-project
+   29  kubetl get ns
+   30  kubectl get ns
+   31  kubectl get project
+   32  kubectl describe ns
+   33  clear
+   34  kubectl create -f https://raw.githubusercontent.com/itrainpadman/k8s_resouces/master/jenkins-deployments.yml
+   35  kubectl create -f https://raw.githubusercontent.com/itrainpadman/k8s_resouces/master/nginx-pod.yaml
+   36  vim pod_dfe.yaml
+   37  ls
+   38  kubectl create -f pod_dfe.yaml
+   39  kubectl get pods
+   40  kubectl get depoyments
+   41  kubectl get deployments
+   42  kubectl get pods -o wide
+   43  kubectl describe pod
+   44  history
