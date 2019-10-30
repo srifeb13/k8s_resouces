@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: padman
+  name: padman-itrain
 metadata:
   name: nginx-deployment
-  namespace: padman
+  namespace: padman-itrain
 spec:
   replicas: 2
   selector:
