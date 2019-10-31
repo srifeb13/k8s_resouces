@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: padman-new
+  name: padman-tech
 ---  
 apiVersion: apps/v1
 kind: Deployment
